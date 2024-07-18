@@ -1,0 +1,67 @@
+[
+    {
+        "title": "REACT",
+        "imgsrc": "skills/react.svg",
+        "percentage": 70
+    },
+    {
+        "title": "MONGODB",
+        "imgsrc": "skills/mongodb.svg",
+        "percentage": 70
+
+    },
+    {
+        "title": "CSS",
+        "imgsrc": "skills/css.svg",
+        "percentage": 85
+
+    },
+    {
+        "title": "EXPRESS",
+        "imgsrc": "skills/express.svg",
+        "percentage": 75
+
+    },
+    {
+        "title": "GIT",
+        "imgsrc": "skills/git.svg",
+        "percentage": 75
+
+    },
+    {
+        "title": "HTML",
+        "imgsrc": "skills/html.svg",
+        "percentage": 85
+
+    },
+    {
+        "title": "JAVA",
+        "imgsrc": "skills/java.svg",
+        "percentage": 80
+
+    },
+    {
+        "title": "JAVASCRIPT",
+        "imgsrc": "skills/javascript.svg",
+        "percentage": 85
+
+    },
+    {
+        "title": "MYSQL",
+        "imgsrc": "skills/mysql.svg",
+        "percentage": 85
+
+    },
+    {
+        "title": "NODEJS",
+        "imgsrc": "skills/nodejs.svg",
+        "percentage": 75
+
+    },
+    {
+        "title": "TAILWIND",
+        "imgsrc": "skills/tailwind.svg",
+        "percentage": 60
+
+    }
+]

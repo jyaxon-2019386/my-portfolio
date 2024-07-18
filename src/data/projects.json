@@ -1,0 +1,28 @@
+[
+    {
+      "title": "Sistema de Ventas en Java",
+      "imgsrc": ["projects/registerClient.PNG", "projects/javaLogin.PNG"], 
+      "description": 
+      "Este es un sistema de ventas personalizado hecho en Java con conexión a base de datos MySQL.",
+      "skills": ["Java", "MySQL", "Netbeans"], 
+      "demo": "https://www.example.com",
+      "source": "https://github.com/jyaxon-2019386/projects-portfolio.git"
+    },
+    {
+      "title": "Sistema de Restaurantes en Java",
+      "imgsrc": ["projects/project.png"],
+      "description": "Desarrollo de aplicación gestionado en JAVA SE y MySQL utilizando Netbeans y Workbench como herramientas. Se utilizó estructura MVC. ",
+      "skills": ["Java", "MySQL Workbench", "Netbeans"], 
+      "demo": "https://www.example.com",
+      "source": "https://github.com/jyaxon-2019386/projects-portfolio/tree/tonys-kinal"
+    },
+    {
+      "title": "Gestor de hoteles",
+      "imgsrc": ["projects/project.png"],
+      "description": "Descripción breve del proyecto",
+      "skills": ["React", "JavaScript", "NodeJS", "MongoDB"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    }
+  ]
+  
