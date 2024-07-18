@@ -12,7 +12,6 @@ export const Hero = () => {
           <br />
           <em>"Si puedes imaginarlo, <strong>puedes programarlo</strong>"</em> Alejandro Taboada
         </p>
-        <a href="mailto:jyaxon-2019386@kinal.edu.gt" className={styles.contactBtn}> Contactame</a>
       </div>
       <img src={getImage('hero/profile.svg')} alt='Hero image' className={styles.heroImg}/>
       <div className={styles.topBlur}/>

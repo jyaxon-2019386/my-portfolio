@@ -5,7 +5,7 @@ import styles from './About.module.css'
 export const About = () => {
   return (
     <section className={styles.container} id='about'>
-      <h2 className={styles.title}>Sobre mi</h2>
+      <h2 className={styles.title}>Desarrollador web</h2>
         <div className={styles.content}>
 
           <ul className={styles.aboutItems}>
@@ -13,11 +13,10 @@ export const About = () => {
               <img src={getImage('about/cursor.png')} alt="cursor" />
               <div className={styles.aboutItemText}>
                 <h3>
-                  ¿Quién soy?
+                  Programador Jr
                 </h3>
                 <p>
-                Soy Juan Pablo, un desarrollador jr con experiencia con tecnologías como JavaScript, HTML y CSS. Actualmente, estoy creando proyectos con MERN stack además de estar aprendiendo React Native para aplicaciones móviles.
-
+                Soy Juan Pablo, un desarrollador junior con experiencia en tecnologías como JavaScript, HTML y CSS. Actualmente, estoy creando proyectos con el stack MERN y también estoy aprendiendo React Native para desarrollar aplicaciones móviles.
                 </p>
               </div>
             </li>
@@ -26,10 +25,10 @@ export const About = () => {
               <img src={getImage('about/back.png')} alt="back" />
               <div className={styles.aboutItemText}>
                 <h3>
-                  Back-end Dev
+                 ¿Quién soy?
                 </h3>
                 <p>
-                  He tenido experiencia con APIS Request y con frameworks como NodeJS.
+                Mi nombre completo es Juan Pablo Ángel Yaxón Taquirá y actualmente tengo 18 años. Durante los últimos 4 años, me he adentrado en el mundo del desarrollo web y la programación. Siempre me gusta estar informado y aprender sobre las nuevas cosas que surgen en el mundo de la tecnología.
                 </p>
               </div>
             </li>
@@ -38,10 +37,10 @@ export const About = () => {
               <img src={getImage('about/cursor.png')} alt="ui" />
               <div className={styles.aboutItemText}>
                 <h3>
-                  Conoce más de mi
+                  Front-end y Back-end
                 </h3>
                 <p>
-                  Soy un programador jr con experiencia en CSS, HTML5 y actualmente en React.
+                Soy un programador que disfruta tanto de la parte visual que ve el usuario, es decir, la interfaz de usuario, como de las funcionalidades del programa que el usuario final no percibe.
                 </p>
               </div>
             </li>

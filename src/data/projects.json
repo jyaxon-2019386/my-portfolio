@@ -17,10 +17,10 @@
       "source": "https://github.com/jyaxon-2019386/projects-portfolio/tree/tonys-kinal"
     },
     {
-      "title": "Gestor de hoteles",
-      "imgsrc": ["projects/project.png"],
-      "description": "Descripción breve del proyecto",
-      "skills": ["React", "JavaScript", "NodeJS", "MongoDB"],
+      "title": "Gestor de Almacenes",
+      "imgsrc": ["projects/todolist.PNG"],
+      "description": "Sistema para gestionar las actividades dentro de una almacenadora hecha con MERN stack",
+      "skills": ["React", "JavaScript", "NodeJS", "MongoDB", "Express"],
       "demo": "https://www.example.com",
       "source": "https://www.github.com"
     }
