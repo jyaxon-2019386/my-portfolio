@@ -1,7 +1,5 @@
 import React from 'react';
 import styles from './Experience.module.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFilePdf } from '@fortawesome/free-solid-svg-icons';
 
 export const Experience = () => {
   return (
@@ -44,13 +42,6 @@ export const Experience = () => {
             </div>
           </li>
         </ul>
-      </div>
-
-      <div className={styles.downloadContainer}>
-      <a href="/assets/pdf/CV.pdf" className={styles.downloadButton} download>
-        <FontAwesomeIcon icon={faFilePdf} />
-          Descargar CV
-        </a>
       </div>
     </section>
   );
