@@ -1,22 +1,22 @@
 import React from 'react';
 import skills from '../../data/skills.json';
 import { getImage } from '../../utils';
-import './Skills.css'; 
+import styles from './Skills.module.css'; 
 
 export const Skills = () => {
   return (
-    <section id='skills' className="container">
-      <h2 className="title">Habilidades</h2>
-      <div className="skills-container">
+    <section id='skills' className={styles.container}>
+      <h2 className={styles.title}>Habilidades</h2>
+      <div className={styles.skillsContainer}>
         {skills.map((skill, id) => (
-          <div className="skill aboutItem" key={id}>
-            <div className="skill-header content">
-              <img src={getImage(skill.imgsrc)} alt={skill.title} className="skill-img" />
-              <p className="skill-title">{skill.title}</p>
+          <div className={styles.skill} key={id}>
+            <div className={styles.skillHeader}>
+              <img src={getImage(skill.imgsrc)} alt={skill.title} className={styles.skillImg} />
+              <p className={styles.skillTitle}>{skill.title}</p>
             </div>
-            <div className="progress-bar-container">
-              <div className="progress-bar" style={{ width: `${skill.percentage}%` }}>
-                <span className="progress-bar-text">{`${skill.percentage}%`}</span>
+            <div className={styles.progressBarContainer}>
+              <div className={styles.progressBar} style={{ width: `${skill.percentage}%` }}>
+                <span className={styles.progressBarText}>{`${skill.percentage}%`}</span>
               </div>
             </div>
           </div>

@@ -1,5 +1,4 @@
 import React from 'react'
-import { getImage } from '../../utils'
 import styles from './About.module.css'
 
 export const About = () => {
@@ -10,7 +9,6 @@ export const About = () => {
 
           <ul className={styles.aboutItems}>
             <li className={styles.aboutItem}>
-              <img src={getImage('about/cursor.png')} alt="cursor" />
               <div className={styles.aboutItemText}>
                 <h3>
                   Programador Jr
@@ -22,7 +20,6 @@ export const About = () => {
             </li>
 
             <li className={styles.aboutItem}>
-              <img src={getImage('about/back.png')} alt="back" />
               <div className={styles.aboutItemText}>
                 <h3>
                  ¿Quién soy?
@@ -34,7 +31,6 @@ export const About = () => {
             </li>
 
             <li className={styles.aboutItem}>
-              <img src={getImage('about/cursor.png')} alt="ui" />
               <div className={styles.aboutItemText}>
                 <h3>
                   Front-end y Back-end

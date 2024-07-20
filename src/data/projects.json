@@ -5,24 +5,56 @@
       "description": 
       "Este es un sistema de ventas personalizado hecho en Java con conexión a base de datos MySQL.",
       "skills": ["Java", "MySQL", "Netbeans"], 
-      "demo": "https://www.example.com",
-      "source": "https://github.com/jyaxon-2019386/projects-portfolio.git"
+      "source": "https://github.com/jyaxon-2019386/projects-portfolio/tree/sistema-ventas-java"
     },
     {
       "title": "Sistema de Restaurantes en Java",
-      "imgsrc": ["projects/project.png"],
+      "imgsrc": ["projects/empleadosTony.PNG", "projects/loginTonys.PNG"],
       "description": "Desarrollo de aplicación gestionado en JAVA SE y MySQL utilizando Netbeans y Workbench como herramientas. Se utilizó estructura MVC. ",
       "skills": ["Java", "MySQL Workbench", "Netbeans"], 
-      "demo": "https://www.example.com",
       "source": "https://github.com/jyaxon-2019386/projects-portfolio/tree/tonys-kinal"
+    },
+    {
+      "title": "Juego Hangman",
+      "imgsrc": ["projects/hangman.PNG", "projects/hangman2.PNG"], 
+      "description":"Juego del 'Ahorcado' desarrollado en HTML, CSS y JavaScript.",
+      "skills": ["JavaScript", "CSS", "HTML"], 
+      "source": "https://github.com/jyaxon-2019386/projects-portfolio/tree/hangman-game"
+    },
+    {
+      "title": "Control Académico",
+      "imgsrc": ["projects/academicSystem.PNG", "projects/academicSystem2.PNG"], 
+      "description":"Gestor de control académico haciendo uso de ROLES. Desarrollado con NodeJS y Express.",
+      "skills": ["JavaScript", "NodeJS", "Express", "Mongoose"], 
+      "source": "https://github.com/jyaxon-2019386/projects-portfolio/tree/control-academico"
+    },
+    {
+      "title": "Gestor de Hoteles",
+      "imgsrc": ["projects/hotel.PNG"], 
+      "description":"Proyecto gestor de hoteles utizando React por primera vez en un proyecto a gran escala. Desarrollado con NodeJS y Mongoose.",
+      "skills": ["JavaScript", "NodeJS","React", "Express", "Mongoose"], 
+      "source": "https://github.com/jyaxon-2019386/projects-portfolio/tree/sistema-hoteles"
     },
     {
       "title": "Gestor de Almacenes",
       "imgsrc": ["projects/todolist.PNG"],
-      "description": "Sistema para gestionar las actividades dentro de una almacenadora hecha con MERN stack",
+      "description": "Sistema para gestionar las actividades dentro de una almacenadora hecha con MERN stack.",
       "skills": ["React", "JavaScript", "NodeJS", "MongoDB", "Express"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "source": "https://github.com/jyaxon-2019386/projects-portfolio/tree/sistema-almacenadora"
+    },
+    {
+      "title": "Sistema Bancario",
+      "imgsrc": ["projects/banckAccount.PNG", "projects/banckSystem.PNG", "projects/banckSystem2.PNG"],
+      "description": "Sistema de gestión bancaria personalizada desarrollado con MERN stack.",
+      "skills": ["React", "JavaScript", "NodeJS", "Tailwind", "MongoDB", "Express"],
+      "source": "https://github.com/jyaxon-2019386/projects-portfolio/tree/sistema-bancario"
+    },
+    {
+      "title": "Sistema CHAT",
+      "imgsrc": ["projects/chat-nova.PNG", "projects/chat-2.PNG", "projects/chat-3.PNG"],
+      "description": "Proyecto sobre un chat en tiempo real para la plataforma NOVA. Sistema desarrollado en MERN stack y Socket.io.",
+      "skills": ["React", "JavaScript", "NodeJS", "MongoDB", "Express", "Socket.io", "Tailwind"],
+      "source": "https://github.com/jyaxon-2019386/projects-portfolio/tree/chat-nova"
     }
   ]
   

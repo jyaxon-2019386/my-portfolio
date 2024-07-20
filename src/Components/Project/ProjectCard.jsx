@@ -5,7 +5,7 @@ import { getImage } from '../../utils';
 import styles from './ProjectCard.module.css';
 import ImageModal from './ImageModal.jsx';
 
-export const ProjectCard = ({ project: { title, imgsrc, description, skills, demo, source } }) => {
+export const ProjectCard = ({ project: { title, imgsrc, description, skills, source } }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedImage, setSelectedImage] = useState(null);
 
@@ -40,7 +40,6 @@ export const ProjectCard = ({ project: { title, imgsrc, description, skills, dem
         ))}
       </ul>
       <div className={styles.links}>
-        <a href={demo} className={styles.link}>Demo</a>
         <a href={source} className={styles.link}>Source</a>
       </div>
       <ImageModal isOpen={isModalOpen} onRequestClose={closeModal} imgSrc={selectedImage} />
